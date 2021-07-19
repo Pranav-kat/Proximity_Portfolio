@@ -58,11 +58,6 @@
         filter: invert(95%);
 }
     
-    .logo img{
-        width: 16px;
-        height: 10px;
-    }
-    
     .me {
         padding: 11rem 0;
     }
