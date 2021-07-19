@@ -9,7 +9,7 @@
     header {
         background: var(--dark);
         clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
-        padding-bottom: 1.2rem;
+        padding-bottom: 0.5rem;
     }
     
     html {
