@@ -53,9 +53,9 @@
         margin-right: 3rem;
     }
     
-    .logo img{
-        width: 160;
-        height: 106;
+    .logo {
+        width: 16px;
+        height: 10px;
         top: 2%;
         left: 0%;
         filter: invert(95%);
