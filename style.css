@@ -54,8 +54,8 @@
     }
     
     .logo img{
-        width: 2rem;
-        height: 2rem;
+        width: 160;
+        height: 106;
         top: 2%;
         left: 0%;
         filter: invert(95%);
