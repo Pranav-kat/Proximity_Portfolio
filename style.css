@@ -57,6 +57,10 @@
         left:0;
         filter: invert(95%);
 }
+
+.navbar {
+    padding-right:1rem;
+}
     
     .me {
         padding: 11rem 0;
