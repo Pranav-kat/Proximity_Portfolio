@@ -1,0 +1,249 @@
+    @import 'utilities.css';
+     :root {
+        --light: #868686;
+        --dark: #161616;
+        --white: #ffffff;
+        --prime: #3dcfd3;
+    }
+    
+    header {
+        background: var(--dark);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+        padding-bottom: 1.2rem;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .container {
+        max-width: 1152px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    
+    header nav .left a {
+        color: var(--white);
+        text-decoration: none;
+        margin-right: 2rem;
+        text-transform: uppercase;
+        transition: all .3s ease;
+    }
+    
+    header nav .left a:hover {
+        color: var(--prime);
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    header nav {
+        padding: 2rem 0;
+    }
+    
+    header nav .logo {
+        margin-right: 3rem;
+    }
+    
+    .logo {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        top: 2%;
+        left: 0%;
+        filter: invert(95%);
+    }
+    
+    .me {
+        padding: 11rem 0;
+    }
+    
+    .me .right {
+        color: var(--white);
+        margin-top: -9rem;
+    }
+    
+    .me .right h6 {
+        font-size: 1.6rem;
+        color: var(--prime);
+        margin-bottom: 0.5rem;
+    }
+    
+    .me .right h1 {
+        font-size: 4rem;
+        font-weight: 100;
+        line-height: 1.2;
+        margin-bottom: 2rem;
+    }
+    
+    .me .right h1 span {
+        color: #eb3185;
+    }
+    
+    .me .right p {
+        line-height: 1.9;
+        margin-bottom: 2rem;
+    }
+    
+    section {
+        padding: 6rem 0;
+    }
+    
+    section.about h1 {
+        margin-bottom: 1rem;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    
+    section.about h1 span {
+        color: var(--prime);
+    }
+    
+    section.about h3 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        font-family: 'Poppins' sans-serif;
+    }
+    
+    section.about p {
+        line-height: 1.9;
+        margin-bottom: 2rem;
+    }
+    
+    section.about .social a {
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        margin-right: 0.6rem;
+    }
+    
+    section.about .social a:hover {
+        background: var(--prime);
+        transition: all 0.3s ease;
+    }
+    
+    section.freelancer {
+        text-align: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url(/IMAGES/back.jpg);
+        color: var(--white);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 80%, 0 100%);
+        padding-bottom: 10rem;
+    }
+    
+    section.freelancer h1 {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    section.freelancer p {
+        margin-bottom: 2rem;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    section.contact {
+        text-align: center;
+        font-size: 37px;
+    }
+    
+    section.contact h4 span {
+        color: var(--prime);
+    }
+    
+    section.event {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    section.event h3 span {
+        color: var(--prime);
+    }
+    
+    section.event p a {
+        text-decoration: none;
+        color: #eb3185;
+        font-size: 28px;
+    }
+    
+    section.about .about-me-img {
+        padding-right: 4rem;
+    }
+    
+    section.contactus .container {
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    section.contactus h1 span {
+        color: var(--prime);
+    }
+    
+    section.contactus .container .wrapper {
+        font-size: 15px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    section.contactus .container .wrapper .card img {
+        margin-bottom: 1.5rem;
+    }
+    
+    section.contactus .container .wrapper .card h6 {
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: 4rem;
+    }
+    
+    section.contactus .input {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    section.contactus .input-2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section.contactus input {
+        padding: 1rem 1rem;
+        border: 1px solid #d9deda;
+        font-size: 1rem;
+    }
+    
+    section.contactus .input-2 input {
+        margin-bottom: 1.5rem;
+        border: 1px solid #d9deda;
+    }
+    
+    section.contactus .input-2 textarea {
+        padding: 1rem;
+        border: 1px solid #d9deda;
+        font-size: 1rem;
+    }
+    
+    section.contactus .btn-wrapper {
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    footer {
+        background: var(--dark);
+        text-align: center;
+    }
+    
+    .footer {
+        filter: invert(95%);
+    }
