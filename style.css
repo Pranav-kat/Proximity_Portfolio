@@ -52,13 +52,16 @@
     header nav .logo {
         margin-right: 3rem;
     }
+.logo{
+     position:absolute;
+        top:0;
+        left:0;
+        filter: invert(95%);
+}
     
-    .logo {
+    .logo img{
         width: 16px;
         height: 10px;
-        top: 2%;
-        left: 0%;
-        filter: invert(95%);
     }
     
     .me {
