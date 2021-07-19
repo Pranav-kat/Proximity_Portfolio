@@ -53,6 +53,7 @@
         margin-right: 3rem;
     }
 .logo{
+        position:absolute;
         top:0;
         left:0;
         filter: invert(95%);
